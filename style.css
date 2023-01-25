@@ -4,21 +4,56 @@ body {
     background: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg") no-repeat;
     background-size: cover;
     flex-direction: column;
-    align-items: center;
+    width: 1201px;
+    margin: auto;
+    font-family: Copperplate;
 }
 
 .allStarBackground{
     width: 100%;
 }
 .box{
-    color: #966fd6;
-    background-image: linear-gradient(blue,grey, #F67280);
+    color: #6d00fb;
+    background-image: linear-gradient(	#74D0F1, #fb4040);
     border-radius: 6px;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    width: 100%;
 
 }
 .sneakerHeadTitle{
     text-decoration: underline;
     text-shadow: 2px 1px 5px yellow;
+}
+#row1{
+    margin-right: 50%;
+}
 
+#jordans-1{
+    box-shadow: 5px 5px 10px 1px blue;
+}
+#jordans-1-desc{
+    color: white;  
+    background-color: #74D0F1;
+    border-style: solid;
+    border-color: #f17500;
+    border-radius: 6px;
+    font-size: x-large;
+}
+#jordans-2{
+    box-shadow: -5px 5px 10px 1px #fb4040;
 
+}
+
+#row2{
+    margin-left: 50%;
+}
+#jordans-2-desc{
+    color: white;  
+    background-color: #F67280;
+    border-style: solid;
+    border-color: #0d6e00;
+    border-radius: 6px;
+    font-size: x-large;
 }
