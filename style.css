@@ -1,17 +1,24 @@
-#body{
-    display: flex;
+
+body {
+    display: flex;  
+    background: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg") no-repeat;
+    background-size: cover;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
-
-
-}
-#picture-container{
-    
-
 }
 
-#More-info-on-Bangalore{
+.allStarBackground{
+    width: 100%;
+}
+.box{
+    color: #966fd6;
+    background-image: linear-gradient(blue,grey, #F67280);
+    border-radius: 6px;
+
+}
+.sneakerHeadTitle{
+    text-decoration: underline;
+    text-shadow: 2px 1px 5px yellow;
+
 
 }
